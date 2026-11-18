@@ -1,0 +1,53 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---------- Виртуальные окружения ----------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---------- Данные приложения ----------
+# База и пользовательские данные — не коммитим
+books.db
+books.db-journal
+books.db-wal
+books.db-shm
+settings.ini
+covers/
+
+# ---------- IDE / редакторы ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ---------- ОС ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Логи и временные ----------
+*.log
+*.tmp
+*.bak
+
+# ---------- Тесты / кэш ----------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
